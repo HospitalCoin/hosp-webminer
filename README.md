@@ -1,2 +1,4 @@
-# hosp-webminer
-Hospital Coin Web Miner
+# HospitalCoin (HOSP) WebMiner
+
+Mine HospitalCoin (HOSP) on Your Browser!
+

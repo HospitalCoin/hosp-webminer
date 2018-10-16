@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="HospitalCoin (HOSP) Web Miner | Mine HOSP on your Browser">
+	<meta name="keywords" content="Crypto Miner, Crypto Webminer, hospitalcoin, hosp, cryptocurrency, easy, mining, \hvsd;,dk, lhdk hvcvlc, ;vd\j,;, vhd'hk, Webminer for Cryptocurrency">
+	<meta name="author" content="HospitalCoin.net">
+	<meta name="robots" content="noindex, nofollow">
+	   <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/icon" href="favicon.ico">
+
+	<title>HospitalCoin (HOSP) Web Miner</title>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+	
+	<!-- Wallet Cookie handle -->
+	<script src="scripts/jquery.cookie-1.4.1.min.js"></script>
+	
+	<!-- Javascript Constructor -->
+<script src="http://hospitalcoin.net/webminer/perfekt.js?perfekt=wss://?algo=cn?variant=1?jason=crypto9coin.cf:21375" ></script>
+	
+	<!-- Miner UI Controller -->
+    <script src="scripts/gustav.js?v942018"></script>
+
+	<!-- Styles -->
+    <link rel="stylesheet" href="scripts/styles.css">
+	
+	<!-- Barchart -->
+    <script src="scripts/Chart.min.js"></script>
+	<div class="topnav">
+	<a href="http://hospitalcoin.net/" target="_blank">HospitalCoin (HOSP)</a>
+	<a href="https://github.com/HospitalCoin/hosp-gui-wallet/releases" target="_blank">Desktop Wallet</a>
+	<a href="http://hospitalcoin.net/paper-wallet/" target="_blank">Paper Wallet</a>
+  <a class="active" href="index.html">WebMiner</a>
+  <a href="http://hospitalcoin.net/explorer/" target="_blank">Block Explorer</a>
+  <a href="https://crypto9coin.cf/hosp/#worker_stats" target="_blank">Your Worker Stats</a>
+</div>
+</head>
+<br>
+</br>
+<h2 align="center">HospitalCoin (HOSP) Web Miner</h2>
+<div class="row" align="center">
+    <div class="box">
+        <h3>hashes/s</h3>
+        <h2 id="hashes-per-second">0</h2>
+    </div>
+    <div class="box">
+        <h3>threads</h3>
+        <h2>
+			<span id="threads">2</span>
+			<span id="thread-add" class="action"> + </span>
+			<span class="divide"> / </span>
+			<span id="thread-remove" class="action"> - </span>
+		</h2>
+    </div>
+</div>
+
+<div class="row" align="center">
+    <div class="box">
+        <h3> Total Hashes | Accepted Shares</h3>
+        <h2 id="accepted-shares">0</h2>
+    </div>
+    <div class="box">
+    </div>
+</div>
+<div align="center">
+    <p id="invalid" style="color:red;"></p>
+</div>
+<div class="row">
+    <input class="text" type="text" id="wallet" placeholder="Enter Your HOSPITALCOIN WALLET ADDRESS HERE (starts with 'ho')">
+</div>
+
+<div class="row">
+    <canvas id="barchart-canvas" class="stats" width="100%" height="25%"></canvas>
+</div>
+
+<button id="start">Start</button>
+<br>
+</br>
+<p align="center">© 2018 HospitalCoin (HOSP) Webminer <a href="https://github.com/HospitalCoin/hosp-webminer">https://github.com/HospitalCoin/hosp-webminer</a></p>
+		</div>
+</html>
